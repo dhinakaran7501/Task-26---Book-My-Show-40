@@ -1,0 +1,385 @@
+@media (max-width: 575px) {
+    .main_container {
+        width: 100%;
+
+    }
+
+    .navbar_section {
+        width: 100%;
+        height: 30px;
+    }
+
+    .navbar1_section {
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar1_1_section {
+        gap: 136px;
+        height: 30px;
+    }
+
+    .navbar1_1_section a>img {
+        width: 60px;
+        height: 20px;
+        margin: 5px 0px;
+    }
+
+    .searchbar_section {
+        background-color: transparent;
+    }
+
+    .searchbar_section>i {
+        color: white;
+    }
+
+    .searchbar_section>input {
+        display: none;
+    }
+
+    .location_section>.location_content_section {
+        display: none;
+    }
+
+    .signin_section .signin {
+        width: 55px;
+        height: 20px;
+        font-size: 010px;
+        font-weight: bold;
+    }
+
+    .signin_section a:nth-child(2)>i {
+        font-size: 17px;
+    }
+
+    .navbar2_section {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .navbar2_1_section {
+        display: none;
+    }
+    .navbar_logo_section{
+        display: block;
+    }
+    .navbar_logo_section>ul {
+        display: flex;
+        gap: 112px;
+    }
+
+    .navbar_logo_section>ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .navbar_logo_section>ul li>a>img {
+        width: 20px;
+    }
+
+    .navbar_logo_section>ul li>span {
+        color: white;
+        font-size: 10px;
+    }
+
+    .testimonial_container {
+        width: 100%;
+    }
+
+    .testimonial_section {
+        width: 100%;
+        margin: 0px 9px;
+    }
+
+    .logo_section0_1 {
+        position: absolute;
+        top: 38px;
+        left: 19px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .logo_section0_1>i {
+        font-size: 15px;
+    }
+
+    .logo_section0 {
+        position: absolute;
+        top: 38px;
+        left: 338px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .logo_section0>i {
+        font-size: 15px;
+    }
+
+    .testimonial_section>img {
+        width: 90%;
+        margin: 0% 10px;
+    }
+
+    .circle_section>.circles {
+        position: absolute;
+        top: 80%;
+        left: 45%;
+    }
+
+    .circle_section>.circles>a {
+        width: 5px;
+        height: 5px;
+    }
+
+    .mini_card_container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .mcc_content_section {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .mcc_content_section>ul>li>h1 {
+        font-size: 13px;
+    }
+
+    .mcc_content_section>ul>li>a {
+        font-size: 12px;
+    }
+
+    .mcc_card_section {
+        width: 85%;
+        margin: 0 auto;
+        overflow: auto;
+        display: flex;
+        gap: 8px;
+    }
+
+    .mcc_card_section>.logo_section {
+        display: none;
+    }
+
+    .mcc_card_section>.mc1>a>img {
+        width: 100%;
+        height: 180px;
+    }
+
+    .mc1 {
+        min-width: 125px;
+        height: 310px;
+    }
+
+    .mc1_content_section>a {
+        font-size: 10.5px;
+    }
+
+    .stream_card_section {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .stream_card_section>img {
+        width: 100%;
+        height: 50px;
+    }
+
+    .mini_card_container2 {
+        width: 100%;
+    }
+
+    .mcc_content_section2 {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .mcc_content_section2>h2 {
+        font-size: 13px;
+        margin: 10px 0px 0px;
+    }
+
+    .mcc_card_section2 {
+        width: 85%;
+        margin: 0 auto;
+        overflow: auto;
+        gap: 8px;
+    }
+
+    .logo_section2 {
+        display: none;
+    }
+
+    .mc2 {
+        min-width: 125px;
+        height: 0%;
+    }
+
+    .mc2>a>img {
+        width: 100%;
+        height: 40%;
+    }
+
+    .premiere_section {
+        width: 85%;
+        overflow: hidden;
+    }
+
+    .premiere_banner_section {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .premiere_banner_section>img {
+        width: 190%;
+    }
+
+    .mcc_content_section3 {
+        font-size: 10.5px;
+    }
+
+    .mcc_card_section3 {
+        margin: 85%;
+        margin: 0 auto;
+        overflow: auto;
+        gap: 8px;
+    }
+
+    .mc3 {
+        min-width: 125px;
+        height: 0%;
+    }
+
+    .mcc_card_section3 .mc3 a>img {
+        width: 100%;
+        height: 180px;
+    }
+
+    .mc3_content_section>a {
+        font-size: 10px;
+    }
+
+    .logo_section3 {
+        display: none;
+    }
+
+    .mini_card_container {
+        position: relative;
+    }
+
+    .mcc_content_section>ul>li>span {
+        position: absolute;
+        top: 9px;
+        left: 103px;
+        padding: 0.5px 3px;
+    }
+
+    .logo_section4 {
+        display: none;
+    }
+
+    .logo_section5 {
+        display: none;
+    }
+
+    .logo_section6 {
+        display: none;
+    }
+
+    .logo_section7 {
+        display: none;
+    }
+
+    .mini_card_container1 {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .m_card_container {
+        margin: 0px 0px 15px 0px;
+    }
+
+    .mcc_content_section4 {
+        width: 100%;
+    }
+
+    .mcc_content_section>ul>li {
+        font-size: 10px;
+    }
+
+    .mcc_card_section {
+        margin: 10px auto;
+
+    }
+
+    .logo_section8 {
+        display: none;
+    }
+
+    .home_reverse_container {
+        width: 85%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .main_container2 {
+        width: 100%;
+
+    }
+
+    .footer_section1 {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .ff_content_section1 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .ff_content_section1>span{
+        font-size: 12px;
+    }
+
+    .contacttoday_section>a{
+        width: 96px;
+        height: 35px;
+        font-size: 10px;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+    .sub_container2{
+        width: 100%;
+    }
+    .customercare_section>ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+    }
+    .list_section{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .bottom_logo{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .social_media_container{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .footer_container2{
+        width: 85%;
+        margin: 0 auto;
+        padding: 30px 0px;
+    }
+}

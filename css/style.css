@@ -179,10 +179,14 @@
 .location_section .signin_section .signin {
     border: none;
     outline: none;
-    padding: 7px 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #F84464;
     color: white;
     border-radius: 5px;
+    width: 54px;
+    height: 25px;
 }
 
 .signin_section {
@@ -263,9 +267,6 @@
 /* TESTIMONAL SECTION STARTS */
 .testimonial_container {
     background-color: #f7efef;
-}
-
-.testimonial_section {
     width: 1212px;
     margin: 0px auto;
     padding: 10px;
@@ -297,7 +298,7 @@
     width: 1191px;
 }
 
-.logo_section0{
+.logo_section0 {
     width: 40px;
     height: 40px;
     text-align: start;
@@ -312,15 +313,16 @@
     left: 1182px;
 
 }
-.logo_section0>i{
+
+.logo_section0>i {
     color: white;
     font-size: 20px;
 }
 
-.logo_section0_1{
+.logo_section0_1 {
     width: 40px;
     height: 40px;
-    background-color: #646262;
+    background-color: #646262a1;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -332,7 +334,8 @@
     right: 1182px;
 
 }
-.logo_section0_1>i{
+
+.logo_section0_1>i {
     color: white;
     font-size: 20px;
 }
@@ -452,7 +455,7 @@
     position: relative;
 }
 
-.logo_section2{
+.logo_section2 {
     width: 40px;
     height: 40px;
     background-color: #646262;
@@ -466,10 +469,12 @@
     left: 1190px;
 
 }
-.logo_section2>i{
+
+.logo_section2>i {
     color: white;
     font-size: 20px;
 }
+
 .mc2 a>img {
     width: 222.39px;
     height: 222.39px;
@@ -525,7 +530,7 @@
 /* Premiere SECTION END */
 
 
-.logo_section3{
+.logo_section3 {
     width: 40px;
     height: 40px;
     background-color: #646262;
@@ -539,12 +544,13 @@
     left: 1190px;
 
 }
-.logo_section3>i{
+
+.logo_section3>i {
     color: white;
     font-size: 20px;
 }
 
-.logo_section4{
+.logo_section4 {
     width: 40px;
     height: 40px;
     background-color: #646262;
@@ -558,12 +564,13 @@
     left: 1190px;
 
 }
-.logo_section4>i{
+
+.logo_section4>i {
     color: white;
     font-size: 20px;
 }
 
-.logo_section5{
+.logo_section5 {
     width: 40px;
     height: 40px;
     background-color: #646262;
@@ -577,12 +584,13 @@
     left: 1190px;
 
 }
-.logo_section5>i{
+
+.logo_section5>i {
     color: white;
     font-size: 20px;
 }
 
-.logo_section6{
+.logo_section6 {
     width: 40px;
     height: 40px;
     background-color: #646262;
@@ -596,12 +604,13 @@
     left: 1190px;
 
 }
-.logo_section6>i{
+
+.logo_section6>i {
     color: white;
     font-size: 20px;
 }
 
-.logo_section7{
+.logo_section7 {
     width: 40px;
     height: 40px;
     background-color: #646262;
@@ -615,12 +624,13 @@
     left: 1190px;
 
 }
-.logo_section7>i{
+
+.logo_section7>i {
     color: white;
     font-size: 20px;
 }
 
-.logo_section8{
+.logo_section8 {
     width: 40px;
     height: 40px;
     background-color: #646262;
@@ -634,7 +644,8 @@
     left: 1190px;
 
 }
-.logo_section8>i{
+
+.logo_section8>i {
     color: white;
     font-size: 20px;
 }
@@ -777,10 +788,14 @@
 .contacttoday_section .contacttoday {
     border: none;
     outline: none;
-    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #EC5E71;
     color: white;
-    border-radius: 5px;
+    width: 122px;
+    height: 39px;
+    border-radius: 8px;
 }
 
 .contacttoday_section {
@@ -845,7 +860,9 @@
     font-size: 12px;
     text-transform: uppercase;
 }
-
+.navbar_logo_section{
+    display: none;
+}
 .anchor_section1 {
     padding: 10px 0px;
 }
